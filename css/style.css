@@ -11,7 +11,7 @@
 
 
 body {
-	background: url(../images/body-pattern.jpg) top left repeat;
+	background:white;
 	font-family: Arial, Helvetica, sans-serif;
 	padding-bottom: 40px;
 }
@@ -22,7 +22,7 @@ body {
 
 header {
 	width: 720px;
-	margin: 80px auto 0 auto;
+	margin: 40px auto 0 auto;
 }
 
 header h1 {
@@ -98,7 +98,7 @@ header p {
 #counter {
 	width: 700px;
 	height: 145px;
-	margin: 55px auto 0 auto;
+	margin: 30px auto 0 auto;
 	font-family: 'LeagueGothicRegular', Arial, Helvetica, sans-serif;
 	font-size: 92px;
 	color: #272727;
@@ -111,14 +111,14 @@ header p {
 	width: 102px;
 	height: 138px;
 	padding-left: 36px;
-	background: #e7e7e7;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.07)));
+	background: #FCF41D;
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.07)));
 	background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
 	background-image: -moz-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07)); 
 	background-image: -ms-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07)); 
 	background-image: -o-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
-	background-image: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
-	border: 1px solid #ccc;
+	background-image: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));*/
+	border: 1px solid black;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
@@ -177,7 +177,7 @@ header p {
 
 form {
 	position: relative;
-	margin: 40px auto 0 auto;
+	margin: 40px auto 0 65%;
 }
 
 .email {
@@ -218,12 +218,13 @@ form {
 	margin: 0 0 0 5px;
 	padding: 0;
 	background: #888;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.1)));
+	background: #FFD700 ;
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.1)));
 	background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
 	background-image: -moz-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1)); 
 	background-image: -ms-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1)); 
 	background-image: -o-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
-	background-image: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+	background-image: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));*/
 	border: 1px solid #636363;
 	-moz-box-shadow:
 		0 1px 2px 0 rgba(253,252,252,.35) inset,
@@ -240,7 +241,7 @@ form {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	font-weight: bold;
-	color: #fff;
+	color: black;
 	text-shadow: 0 1px 0 rgba(0,0,0,.35);
 	line-height: 13px;
 	cursor: pointer;
@@ -328,6 +329,17 @@ footer a {
 	margin-left: 10px;
 }
 
+a{
+color : black ;
+box-shadow: 1px 5px 5px #888888;	
+}
+a:hover{
+	color : black ;	
+}
+a:visited{
+color : gray ;
+box-shadow: 1px 5px 5px #888888;
+}
 .digg {
 	width: 10px;
 	height: 16px;
