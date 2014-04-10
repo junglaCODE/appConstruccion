@@ -1,11 +1,11 @@
 
-$(document).ready(function(){
+function contadordetetas(fecha){
 
 
 	/* ---- Countdown timer ---- */
 
 	$('#counter').countdown({
-		timestamp : (new Date()).getTime() + 51*24*60*60*1000
+		timestamp : (new Date()).getTime() + fecha
 	});
 
 
@@ -54,5 +54,5 @@ $(document).ready(function(){
 	}
 
 
-});
+}
 
