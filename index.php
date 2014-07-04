@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html>
@@ -32,23 +31,19 @@
 	<script src="js/script.js"></script>
 
 </head>
-<body onload="<?php $d = date('d');  $d = 28-$d;   echo "contadordetetas($d*23*60*60*1000);" ?>">
+<body onload="<?php date_default_timezone_set('America/Mexico_City'); $d = date('d');  $d = 28-$d;   echo "contadordetetas($d*23*60*60*1000);" ?>">
 
 	<header>
-		<center><img src="images/PRD.gif" width="330px" height="250px"><br><br>
+		<center><img src="images/logo.png" width="330px" height="250px"><br><br>
 				<h1><a class="empresa" href="http://junglacode.org/blog/"> JunglaCode.org</a> Esta acargo de este proyecto </h1>
 </center>
 	</header>
 
 		<div id="counter"></div>
 
-		<div class="social-media-arrow"></div>
-
 		<footer>
 			<ul>
-				<li><a class="digg" href=""></a></li>
 				<li><a class="twitter" href=""></a></li>
-				<li><a class="vimeo" href=""></a></li>
 				<li><a class="skype" href=""></a></li>
 			</ul>
 		</footer>
