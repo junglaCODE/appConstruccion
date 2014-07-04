@@ -40,11 +40,16 @@
 	</header>
 
 		<div id="counter"></div>
+		<div class="adornouno"></div>
+<div class="adornodos"></div>
 
 		<footer>
 			<ul>
 				<li><a class="twitter" href=""></a></li>
 				<li><a class="skype" href=""></a></li>
+				<li><a class="gplus" href=""></a></li>
+				<li><a class="facebook" href=""></a></li>
+				<li><a class="youtube" href=""></a></li>
 			</ul>
 		</footer>
 	</div>

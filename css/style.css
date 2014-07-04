@@ -11,7 +11,7 @@
 
 
 body {
-	background:white;
+	background:url('../images/fondo.jpg');
 	font-family: Arial, Helvetica, sans-serif;
 	padding-bottom: 40px;
 }
@@ -280,13 +280,23 @@ form {
 
 /* ---- Social Media Arrow ---- */
 
-.social-media-arrow {
+.adornouno{
 	position: absolute;
-	top: 300px;
-	right: 15%;
-	width: 108px;
-	height: 256px;
-	background: url(../images/social-media-arrow.png) top left no-repeat;
+	top: 10%;
+	right: 23%;
+	width: 159px;
+	height: 165px;
+	background: url(../images/butterfly.jpg) top left no-repeat;
+	z-index: 1;
+}
+
+.adornodos{
+	position: absolute;
+	bottom: 7%;
+	right: -49%;
+	width: 77%;
+	height: 86%;
+	background: url(../images/arrglo.jpg) top left no-repeat;
 }
 
 
@@ -302,7 +312,7 @@ footer {
 
 footer ul {
 	float: right;
-	width: 125px;
+	width: 160px;
 	height: 22px;
 }
 
@@ -328,13 +338,13 @@ color : gray ;
 box-shadow: 1px 5px 5px #888888;
 }
 .gplus {
-	width: 10px;
+	width: 16px;
 	height: 16px;
-	background: url(../images/digg.png) center center no-repeat;
+	background: url(../images/google.png) center center no-repeat;
 }
 
 .twitter {
-	width: 21px;
+	width: 16px;
 	height: 16px;
 	background: url(../images/twitter.png) center center no-repeat;
 }
@@ -342,13 +352,18 @@ box-shadow: 1px 5px 5px #888888;
 .facebook {
 	width: 16px;
 	height: 16px;
-	background: url(../images/vimeo.png) center center no-repeat;
+	background: url(../images/facebook.png) center center no-repeat;
 }
 
 .skype {
 	width: 16px;
 	height: 16px;
 	background: url(../images/skype.png) center center no-repeat;
+}
+.youtube{
+	width: 16px;
+	height: 16px;
+	background: url(../images/youtube.png) center center no-repeat;
 }
 
 
