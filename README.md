@@ -1,22 +1,7 @@
-Pagina que en costruccion que hace un comunicado de configuracion mediante un xml
+Pagina que en costruccion conigurada para que en un mes se termine el proyecto
 =============================================
-_________        _       _______ _       _______ _______ _______ ______  _______ 
-\__    _|\     /( (    /(  ____ ( \     (  ___  (  ____ (  ___  (  __  \(  ____ \
-   )  ( | )   ( |  \  ( | (    \| (     | (   ) | (    \| (   ) | (  \  | (    \/
-   |  | | |   | |   \ | | |     | |     | (___) | |     | |   | | |   ) | (__    
-   |  | | |   | | (\ \) | | ____| |     |  ___  | |     | |   | | |   | |  __)   
-   |  | | |   | | | \   | | \_  | |     | (   ) | |     | |   | | |   ) | (      
-|\_)  ) | (___) | )  \  | (___) | (____/| )   ( | (____/| (___) | (__/  | (____/\
-(____/  (_______|/    )_(_______(_______|/     \(_______(_______(______/(_______/.ORG
-
-
-@UTOR: MONOLINUX
-SKYPE: MONOUNIX
+@UTOR: JLGC @monolinux
+SKYPE: monounix
 EMAIL: monolinux@junglacode.org
-
-
-
-
-
-                                                                                 
-
+EMPRESA: jungla{CODE}
+==============================================

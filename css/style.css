@@ -1,17 +1,19 @@
 /* -------------------------------------------------------
 
-	Description: Minimal Coming Soon Page
-	Version: 1.0
+	Description: Pagina en construcción [jungla{CODE}]
+	Version: 1.5
 
 	Designed by Stelian Subotin (1stwebdesigner.com)
 	Coded by Anli Zaimi (azmind.com) for 1stwebdesigner.com
+	Implementación JLGC @monolinux
+	jungla{CODE}
 
 ------------------------------------------------------- */
 
 
 
 body {
-	background:url('../images/fondo.jpg');
+	background: url(../images/body-pattern.jpg) top left repeat;
 	font-family: Arial, Helvetica, sans-serif;
 	padding-bottom: 40px;
 }
@@ -22,7 +24,7 @@ body {
 
 header {
 	width: 720px;
-	margin: 40px auto 0 auto;
+	margin: 80px auto 0 auto;
 }
 
 header h1 {
@@ -42,15 +44,13 @@ header p {
 
 /* ---- Main Area ---- */
 
-#main {
+#principal {
 	position: relative;
 	width: 700px;
 	margin: 50px auto 0 auto;
 	padding: 20px 0 0 25px;
 	background: url(../images/main-content-pattern.jpg) top left repeat;
 }
-
-
 
 /* ---- Links ---- */
 
@@ -74,31 +74,12 @@ header p {
 	text-decoration: none;
 }
 
-.home, .support, .browser, .books, .download, .ups {
-	float: left;
-	width: 180px;
-	margin-left: 42px;
-	padding-left: 25px;
-}
+/* ---- Cronometro ---- */
 
-.home { background: url(../images/home.png) left center no-repeat; margin-left: 0; }
-.support { background: url(../images/support.png) left center no-repeat; }
-.browser { background: url(../images/browser.png) left center no-repeat; clear: right; }
-
-.books, .download, .ups { margin-top: 10px; }
-
-.books { background: url(../images/books.png) left center no-repeat; margin-left: 0; }
-.download { background: url(../images/download.png) left center no-repeat; }
-.ups { background: url(../images/ups.png) left center no-repeat; clear: right; }
-
-
-
-/* ---- Counter ---- */
-
-#counter {
+#cronometro {
 	width: 700px;
 	height: 145px;
-	margin: 30px auto 0 auto;
+	margin: 55px auto 0 auto;
 	font-family: 'LeagueGothicRegular', Arial, Helvetica, sans-serif;
 	font-size: 92px;
 	color: #272727;
@@ -106,18 +87,32 @@ header p {
 	overflow: hidden;
 }
 
+
 .countDays, .countHours, .countMinutes, .countSeconds {
 	float: left;
 	width: 102px;
 	height: 138px;
 	padding-left: 36px;
-	background: #769809;
+	background: #e7e7e7;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.07)));
 	background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
-	background-image: -moz-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07)); 
-	background-image: -ms-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07)); 
+	background-image: -moz-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
+	background-image: -ms-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
 	background-image: -o-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
 	background-image: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
+	border: 1px solid #ccc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow:
+		0 2px 3px 0 rgba(255,255,255,.2) inset,
+		0 2px 2px 0 rgba(0,0,0,.1);
+	-webkit-box-shadow:
+		0 2px 3px 0 rgba(255,255,255,.2) inset,
+		0 2px 2px 0 rgba(0,0,0,.1);
+	box-shadow:
+		0 2px 3px 0 rgba(255,255,255,.2) inset,
+		0 2px 2px 0 rgba(0,0,0,.1);
 }
 
 .points {
@@ -164,7 +159,7 @@ header p {
 
 form {
 	position: relative;
-	margin: 40px auto 0 65%;
+	margin: 40px auto 0 auto;
 }
 
 .email {
@@ -174,8 +169,8 @@ form {
 	background: #f1f1f1;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.02)), to(rgba(0,0,0,.02)));
 	background-image: -webkit-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
-	background-image: -moz-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02)); 
-	background-image: -ms-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02)); 
+	background-image: -moz-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
+	background-image: -ms-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
 	background-image: -o-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
 	background-image: linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
 	border: 1px solid #cbcbcb;
@@ -205,13 +200,12 @@ form {
 	margin: 0 0 0 5px;
 	padding: 0;
 	background: #888;
-	background: #FFD700 ;
-	/*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.1)));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.1)));
 	background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
-	background-image: -moz-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1)); 
-	background-image: -ms-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1)); 
+	background-image: -moz-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+	background-image: -ms-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
 	background-image: -o-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
-	background-image: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));*/
+	background-image: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
 	border: 1px solid #636363;
 	-moz-box-shadow:
 		0 1px 2px 0 rgba(253,252,252,.35) inset,
@@ -228,7 +222,7 @@ form {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	font-weight: bold;
-	color: black;
+	color: #fff;
 	text-shadow: 0 1px 0 rgba(0,0,0,.35);
 	line-height: 13px;
 	cursor: pointer;
@@ -237,8 +231,8 @@ form {
 .submit:hover {
 	background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.1)));
 	background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
-	background-image: -moz-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1)); 
-	background-image: -ms-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1)); 
+	background-image: -moz-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
+	background-image: -ms-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
 	background-image: -o-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
 	background-image: linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
 	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.15) inset;
@@ -278,29 +272,6 @@ form {
 }
 
 
-/* ---- Social Media Arrow ---- */
-
-.adornouno{
-	position: absolute;
-	top: 10%;
-	right: 23%;
-	width: 159px;
-	height: 165px;
-	background: url(../images/butterfly.jpg) top left no-repeat;
-	z-index: 1;
-}
-
-.adornodos{
-	position: absolute;
-	bottom: 7%;
-	right: -49%;
-	width: 77%;
-	height: 86%;
-	background: url(../images/arrglo.jpg) top left no-repeat;
-}
-
-
-
 /* ---- Footer ---- */
 
 footer {
@@ -312,7 +283,7 @@ footer {
 
 footer ul {
 	float: right;
-	width: 160px;
+	width: 125px;
 	height: 22px;
 }
 
@@ -326,47 +297,8 @@ footer a {
 	margin-left: 10px;
 }
 
-a.empresa{
-color : black ;
-box-shadow: 1px 5px 5px #888888;	
-}
-a.empresa:hover{
-	color : black ;	
-}
-a.empresa:visited{
-color : gray ;
-box-shadow: 1px 5px 5px #888888;
-}
-.gplus {
-	width: 16px;
-	height: 16px;
-	background: url(../images/google.png) center center no-repeat;
-}
-
-.twitter {
-	width: 16px;
-	height: 16px;
-	background: url(../images/twitter.png) center center no-repeat;
-}
-
-.facebook {
-	width: 16px;
-	height: 16px;
-	background: url(../images/facebook.png) center center no-repeat;
-}
-
 .skype {
 	width: 16px;
 	height: 16px;
 	background: url(../images/skype.png) center center no-repeat;
-}
-.youtube{
-	width: 16px;
-	height: 16px;
-	background: url(../images/youtube.png) center center no-repeat;
-}
-
-
-span.Days, span.Hours ,span.Minutes ,span.Seconds{
-	color: white;
 }
