@@ -29,7 +29,7 @@ $d = 28-$d; //un mes para que pueda terminar el proyecto
 			<script src="js/jquery.countdown.js"></script>
 			<script src="js/script.js"></script>
 </head>
-<body onload="<?php echo "juicioFinal($d*100*60*60*1000);" ?>">
+<body onload="<?php echo "__juicioFinal__($d*100*60*60*1000);" ?>">
 
 	<header>
 			<h1>{Logotipo}</h1>
@@ -45,10 +45,10 @@ $d = 28-$d; //un mes para que pueda terminar el proyecto
 			<!-- Aqui es donde se pone el contador y es desde el archivo script.js -->
 			</aside>
 
-			<form action="" method="get">
-				<input type="text" class="email" placeholder="Escriba su e-mail en este campo" required />
-				<input type="submit" class="submit" value="Enviar" />
-			</form>
+			<article id="formulario">
+				<input type="text"  class="informacion" placeholder="Escriba su e-mail en este campo" required />
+				<button onclick='__envioCorreo__()' class="submit" >Enviar</button>
+			</article>
 
 			<footer>
 				<ul>

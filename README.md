@@ -5,3 +5,11 @@ SKYPE: monounix
 EMAIL: monolinux@junglacode.org
 EMPRESA: jungla{CODE}
 ==============================================
+
+
+Si pudiera retroceder tanto para que mis errores se desaparecieran, me quedaria
+a mitad del camino by monolinux
+
+
+www.junglacode.org
+www.junglacode.org/blog

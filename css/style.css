@@ -13,7 +13,6 @@
 
 
 body {
-	background: url(../images/body-pattern.jpg) top left repeat;
 	font-family: Arial, Helvetica, sans-serif;
 	padding-bottom: 40px;
 }
@@ -155,14 +154,14 @@ header p {
 
 
 
-/* ---- Subscription Form ---- */
+/* ----seccion Formulario ---- */
 
-form {
+section #formulario {
 	position: relative;
 	margin: 40px auto 0 auto;
 }
 
-.email {
+.informacion {
 	width: 498px;
 	height: 35px;
 	padding: 0 15px;
@@ -295,10 +294,4 @@ footer a {
 	position: relative;
 	display: block;
 	margin-left: 10px;
-}
-
-.skype {
-	width: 16px;
-	height: 16px;
-	background: url(../images/skype.png) center center no-repeat;
 }

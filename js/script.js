@@ -4,7 +4,7 @@ by JLGC @monolinux
 jungla{CODE}
 */
 
-function juicioFinal(fecha){
+function __juicioFinal__(fecha){
 
 
 	/* ---- Cronometro ---- */
@@ -59,4 +59,16 @@ function juicioFinal(fecha){
 	}
 
 
+}
+
+
+function __envioCorreo__(){
+__correo__ = $("input.informacion").val();
+$.post('gear_index.php', {
+		informacion: __correo__
+
+})
+				.done(function (request) {
+ 				 alert(request);
+				});
 }
