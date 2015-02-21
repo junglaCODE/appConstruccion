@@ -11,6 +11,7 @@ $d = 28-$d; //un mes para que pueda terminar el proyecto
 
 		<meta charset="utf-8" />
 		<title>Página::Construcción</title>
+		<link rel='shortcut icon' type='image/png' href='images/monkey.png' />
 		<!-- CSS -->
 			<link rel="stylesheet" href="css/reset.css">
 			<link rel="stylesheet" href="fonts/stylesheet.css">
