@@ -295,3 +295,8 @@ footer a {
 	display: block;
 	margin-left: 10px;
 }
+
+.fork{
+float: right;
+margin-top: -6%;
+}

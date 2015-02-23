@@ -31,7 +31,7 @@ $d = 28-$d; //un mes para que pueda terminar el proyecto
 			<script src="js/script.js"></script>
 </head>
 <body onload="<?php echo "__juicioFinal__($d*100*60*60*1000);" ?>">
-
+	<img src="images/github.png" alt="" width='100px' class='fork' />
 	<header>
 			<h1>{Logotipo}</h1>
 			<p>{Información}</p>
