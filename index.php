@@ -44,7 +44,7 @@ $d = 28-$d; //un mes para que pueda terminar el proyecto
 			</article>
 
 			<aside id="cronometro">
-			<!-- Aqui es donde se pone el contador y es desde el archivo script.js -->
+			<!-- Aqui es donde se pone el contador y es dxesde el archivo script.js -->
 			</aside>
 
 			<article id="formulario">
@@ -56,6 +56,15 @@ $d = 28-$d; //un mes para que pueda terminar el proyecto
 				<ul>
 					<li>{Redes sociales}</li>
 				</ul>
+				<section id="redessociales">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://alux.junglacode.org/" data-text="[Punto de venta] ALUX" data-via="junglacode" data-size="large">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			<script src="https://apis.google.com/js/platform.js" async defer>
+				{lang: 'es'}
+			</script>
+			<div class="g-plusone" data-annotation="inline" data-width="50"></div>
+			<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Falux.junglacode.org%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+				</section>
 			</footer>
 		</section>
 	</body>
